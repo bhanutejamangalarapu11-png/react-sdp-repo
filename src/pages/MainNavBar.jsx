@@ -1,14 +1,5 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import MainNavBar from './pages/MainNavBar';
-import Home from './pages/Home';
-import About from './pages/About';
-import Registration from './pages/Registration';
-import AdminLogin from './pages/AdminLogin';
-import ManagerLogin from './pages/ManagerLogin';
-import CustomerLogin from './pages/CustomerLogin';
-import './App.css';
 import './style.css';
 
 const MainNavBar = () => {
@@ -17,7 +8,7 @@ const MainNavBar = () => {
       <div className="navbar-container">
         <div className="navbar-logo">
           <Link to="/" className="logo-link">
-            KL Event Management System - 2500090202
+           KL Event Management System -2500031571
           </Link>
         </div>
         <ul className="nav-menu">

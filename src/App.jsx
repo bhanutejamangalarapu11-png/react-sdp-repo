@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route, BrowserRouter } from 'react-router-dom';
 import MainNavBar from './pages/MainNavBar';
 import Home from './pages/Home';
 import About from './pages/About';
@@ -10,6 +10,7 @@ import './App.css';
 
 function App() {
   return (
+  <div>
     <Router>
       <MainNavBar />
       <Routes>
@@ -21,6 +22,7 @@ function App() {
         <Route path="/customer-login" element={<CustomerLogin />} />
       </Routes>
     </Router>
+  </div>
   );
 }
 
