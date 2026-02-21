@@ -8,7 +8,7 @@ const MainNavBar = () => {
       <div className="navbar-container">
         <div className="navbar-logo">
           <Link to="/" className="logo-link">
-           KL Event Management System -2500031571
+           KL Event Management System -2500090202
           </Link>
         </div>
         <ul className="nav-menu">
