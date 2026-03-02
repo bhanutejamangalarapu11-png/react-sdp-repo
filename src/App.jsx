@@ -4,7 +4,7 @@ import './App.css';
 import MainNavBar from './pages/MainNavBar';
 import AdminNavBar from './admin/AdminNavBar';
 import ManagerNavBar from './manager/ManagerNavBar';
-import CustomerNavBar from './customer/CustomerNavBar';
+import CustomerNavBar from './customers/CustomerNavBar';
 
 function App() {
   const [isAdmin, setIsAdmin] = useState(false);
@@ -19,7 +19,7 @@ function App() {
 
     setIsAdmin(adminStatus);
     setIsManager(managerStatus);
-    setIsCustomer(customerStatus);
+    setIsCustomer(customerStatus)
   }, []);
 
   return (
